@@ -1,0 +1,70 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(199, 199, 199);
+  padding: 16px;
+} 
+
+.container .main_head{
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.container-fluid{
+  margin-top: 40px;
+  display: flex ;
+  gap: 30px;
+  justify-content: center;
+}
+
+.emp_csv{
+  width: 30%;
+  border-radius: 6px;
+  min-height: 200px;
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:2rem;
+  align-items: center;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.btn{
+display: flex;
+justify-content: center;
+margin-top: 20px;
+}
+
+.generate-btn{
+  background-color: blue;
+  padding: 8px 26px;
+ border: none;
+ color: white;
+ cursor: pointer;
+ border-radius: 6px;
+}
+
+.error{
+  text-align: center;
+  color: red;
+  padding-top: 10px;
+}
+
+.result-section{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap:10px;
+  align-items: center;
+}
+
